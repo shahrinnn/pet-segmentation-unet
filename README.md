@@ -68,9 +68,11 @@ Output mask size: **128 × 128 × 1**
 
 ## 🖼️ Segmentation Output
 
-The trained model generates a predicted binary mask for unseen pet images and compares it with the ground-truth segmentation mask.
+The trained U-Net model predicts a binary segmentation mask for unseen pet images.
 
 **Original Image → True Mask → Predicted Mask**
+
+![Segmentation Result](prediction_result.png)
 
 ## 🛠️ Technologies Used
 
